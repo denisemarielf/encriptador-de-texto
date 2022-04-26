@@ -68,7 +68,9 @@
         resize: none;
     }
 
-    
+    textarea:focus {
+        min-height: 100px;
+    }
 }
 
 
