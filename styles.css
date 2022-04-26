@@ -65,7 +65,10 @@
 
     textarea {
         margin-top: 20px;
+        resize: none;
     }
+
+    
 }
 
 
@@ -84,7 +87,6 @@ body {
 
 main {
    display: flex;
-   border-bottom: 1px solid black;
    padding: 2%;
 
 }
@@ -181,7 +183,7 @@ footer {
     align-items: center;
     gap: 10px;
     padding: 5px;
-    background-color: rgb(136, 136, 148);
+    background-color: #0A3871;
     color: white;
 }
 
@@ -204,3 +206,12 @@ footer {
     text-align: left;
 
 }
+
+button:hover {
+    transform: scale(1.01);
+    border: 3px solid #0A3871;
+}
+
+textarea:focus, input:focus{
+        outline: none;
+    }
